@@ -49,12 +49,14 @@ const Footer = () => {
               placeholder="Email address"
               required
               className="w-full px-4 sm:px-5 py-3 sm:py-3.5 
-                        rounded-lg 
-                        text-sm sm:text-base 
-                        text-gray-900 
-                        placeholder-gray-500
-                        focus:outline-none focus:ring-2 focus:ring-[#4AD769]
-                        transition-all"
+            rounded-lg 
+            text-sm sm:text-base 
+            text-gray-900 
+            bg-white
+            placeholder-gray-500
+            border-2 border-transparent
+            focus:outline-none focus:border-[#4AD769] focus:ring-0
+            transition-all"
             />
 
             {/* Submit Button */}

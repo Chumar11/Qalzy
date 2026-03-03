@@ -14,7 +14,7 @@ const HeroSection = () => {
         <div className="absolute inset-0">
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/10 z-10"></div>
           <img
-            src="/image/Rectangle 1.png"
+            src="\public\image\Rectangle 1.png"
             alt="Kitchen background"
             className="w-full h-full object-cover object-center"
           />

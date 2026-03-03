@@ -20,10 +20,10 @@ const CalorieCounting = ({ img, title, description, video, addbar }) => {
         <div className="max-w-5xl mx-auto relative">
           {addbar && (
             <div
-              className="absolute top-3 left-[-13px] sm:top-4 sm:left-[-20px] md:top-6 md:left-[-20px] lg:top-8 lg:left-[-35px]
-                            bg-white rounded-[8px] sm:rounded-[10px] shadow-lg
+              className="absolute top-3 -left-3.5 sm:top-4 sm:-left-5 md:top-6 md:-left-5 lg:top-8 lg:-left-8.75
+                            bg-white rounded-lg sm:rounded-[10px] shadow-lg
                             px-3 py-2 sm:px-4 sm:py-2.5 md:px-5 md:py-3
-                            max-w-[200px] sm:max-w-[220px] md:max-w-[250px]
+                            max-w-50 sm:max-w-55 md:max-w-62.5
                             z-10"
             >
               <span className="text-[10px] sm:text-xs md:text-sm lg:text-base font-medium text-gray-700 whitespace-nowrap">
