@@ -14,7 +14,7 @@ function Header() {
               className="text-2xl md:text-3xl font-light tracking-wider text-gray-800"
             >
               <img
-                src="\public\image\logo\logo.png"
+                src="/image/logo/logo.png"
                 alt="Qalzy Logo"
                 className="h-8 md:h-10 w-auto"
               />

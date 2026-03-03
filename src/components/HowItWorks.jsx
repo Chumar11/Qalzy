@@ -4,7 +4,7 @@ const HowItWorks = () => {
       <div className="absolute inset-0 z-0 py-4">
         <div className=""></div>
         <img
-          src="\public\image\Vector2.png"
+          src="/image/Vector2.png"
           alt="Background"
           className="w-full h-full"
         />
@@ -14,7 +14,7 @@ const HowItWorks = () => {
           <div className="flex justify-center items-center">
             <div className="relative">
               <img
-                src="\public\image\firy.png"
+                src="/image/firy.png"
                 alt=""
                 className="w-full h-full  object-contain rounded-[30px]"
               />
@@ -22,7 +22,7 @@ const HowItWorks = () => {
           </div>
           <div className="absolute md:top-1/6 md:left-1/25 lg:left-1/800 lg:top-1/6 top-1/6 left-1/50 xl:top1/6 xl:left-1/15 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
             <img
-              src="\public\image\Untitled design 1.png"
+              src="/image/Untitled design 1.png"
               alt="Tomato"
               className="w-25 object-contain relative z-10 sm:w-40 md:w-48 lg:w-60 xl:w-80"
             />
@@ -31,12 +31,12 @@ const HowItWorks = () => {
           <div className="absolute xl:top-1/3 xl:right-1/16 top-1/3 right-1/30 lg:top-1/3 lg:right-1/75  transform translate-x-8 md:translate-x-16">
             <div className="relative">
               <img
-                src="public/image/p2.png"
+                src="/image/p2.png"
                 alt="apple"
                 className="w-25 object-contain relative z-10 sm:w-35 md:w-48 lg:w-50 xl:w-70 "
               />
               <img
-                src="public/image/image 57.png"
+                src="/image/image 57.png"
                 alt="apple"
                 className="w-13 object-contain absolute z-10 sm:w-15 md:w-27 lg:w-30 xl:w-40 top-1/4 -right-1/5 transform -translate-x-1/2 -translate-y-1/2"
               />
