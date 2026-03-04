@@ -17,7 +17,7 @@ const HeroSection = () => {
           <img
             src="/image/Rectangle 1.png"
             alt="Kitchen background"
-            className="w-full h-full object-cover object-[70%]  lg:object-center"
+            className="w-full h-full object-cover object-[70%] lg:object-center"
           />
         </div>
 
