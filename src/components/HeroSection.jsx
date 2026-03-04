@@ -17,15 +17,15 @@ const HeroSection = () => {
           <img
             src="/image/Rectangle 1.png"
             alt="Kitchen background"
-            className="w-full h-full object-cover object-[70%] lg:object-center"
+            className="w-full h-full object-cover object-[70%] lg:object-center "
           />
         </div>
 
         {/* Content */}
         <div className=" md:w-203.75 lg:h-90.75 w-76.25 h-130.75  mx-auto lg:mx-0 ">
-          <div className="flex flex-col gap-4 lg:w-203.75 md:w-125  w-71.25 h-68.75 relative lg:-top-10 top-10 mx-auto lg:mx-0 lg:left-1/6">
+          <div className="flex flex-col gap-4 lg:w-203.75 md:w-125  w-71.25 h-68.75 relative lg:-top-16 top-10 mx-auto lg:mx-0 lg:left-1/10">
             <h1
-              className="lg:text-[68px] text-[41px] font-normal leading-[100%] tracking-[0%] text-white  lg:text-left text-center"
+              className="lg:text-[68px] text-[36px] font-normal leading-[100%] tracking-[0%] text-white  lg:text-left text-center"
               style={{ fontFamily: "Inter" }}
             >
               The only kitchen scale that auto-tracks calories
