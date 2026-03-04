@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-      <nav className="container mx-auto px-4 sm:px-6 lg:px-8">
+      <nav className=" px-4 lg:px-16 ">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <div className="shrink-0">
@@ -25,25 +25,29 @@ function Header() {
           <div className="hidden md:flex items-center space-x-8 lg:space-x-12">
             <a
               href="#scale"
-              className="text-sm lg:text-base text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              className="text-[16px] font-normal leading-[100%] tracking-[0.04em] text-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              style={{ fontFamily: "Helvetica" }}
             >
               AI Scale
             </a>
             <a
               href="#tracking"
-              className="text-sm lg:text-base text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              className="text-[16px] font-normal leading-[100%] tracking-[0.04em] text-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              style={{ fontFamily: "Helvetica" }}
             >
               Calorie Tracking App
             </a>
             <a
               href="#blog"
-              className="text-sm lg:text-base text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              className="text-[16px] font-normal leading-[100%] tracking-[0.04em] text-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              style={{ fontFamily: "Helvetica" }}
             >
               Blog
             </a>
             <a
               href="#shop"
-              className="text-sm lg:text-base text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              className="text-[16px] font-normal leading-[100%] tracking-[0.04em] text-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
+              style={{ fontFamily: "Helvetica" }}
             >
               Shop
             </a>

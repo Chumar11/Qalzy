@@ -20,7 +20,7 @@ const HowItWorks = () => {
               />
             </div>
           </div>
-          <div className="absolute md:top-1/6 md:left-1/25 lg:left-1/800 lg:top-1/6 top-1/6 left-1/50 xl:top1/6 xl:left-1/15 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
+          <div className="absolute md:top-1/6 md:left-1/25 lg:left-1/800 lg:top-1/6 top-1/6 left-1/50 sm:top-1/6 sm:left-1/200 xl:top1/6 xl:left-1/15 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
             <img
               src="/image/Untitled design 1.png"
               alt="Tomato"
@@ -28,7 +28,7 @@ const HowItWorks = () => {
             />
           </div>
 
-          <div className="absolute xl:top-1/3 xl:right-1/16 top-1/3 right-1/30 lg:top-1/3 lg:right-1/75  transform translate-x-8 md:translate-x-16">
+          <div className="absolute xl:top-1/3 xl:right-1/16 top-1/3 right-1/30 sm:top-1/3 sm:right-1/75 lg:top-1/3 lg:right-1/75  transform translate-x-8 md:translate-x-16">
             <div className="relative">
               <img
                 src="/image/p2.png"
