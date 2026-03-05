@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const CalorieCounting = ({ img, title, description, video, addbar }) => {
+const CalorieCounting = ({ img, title, description, video, addbar,width }) => {
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
@@ -17,7 +17,7 @@ const CalorieCounting = ({ img, title, description, video, addbar }) => {
         </div>
 
         {/* Image/Video Section */}
-        <div className="max-w-7xl mx-auto relative">
+        <div className={`${width} mx-auto relative`}>
           {addbar && (
             <div
               className="absolute top-3 -left-3.5 sm:top-4 sm:-left-5 md:top-6 md:-left-5 lg:top-8 lg:-left-8.75
