@@ -5,19 +5,19 @@ const CalorieCounting = ({ img, title, description, video, addbar }) => {
 
   return (
     <section className="relative w-full bg-[#F9F9F9] py-12 sm:py-16 md:py-20 lg:py-24">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
+      <div className=" mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
         {/* Heading */}
-        <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12">
-          <h6 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-5 md:mb-6">
+        <div className="text-center mb-6 sm:mb-8 md:mb-10 lg:mb-12 xl:w-135 mx-auto">
+          <h6 className="text-[24px] font-bold text-[#171923] mb-4 sm:mb-5 md:mb-6">
             {title}
           </h6>
-          <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
+          <p className="text-[16px] text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
             {description}
           </p>
         </div>
 
         {/* Image/Video Section */}
-        <div className="max-w-5xl mx-auto relative">
+        <div className="max-w-7xl mx-auto relative">
           {addbar && (
             <div
               className="absolute top-3 -left-3.5 sm:top-4 sm:-left-5 md:top-6 md:-left-5 lg:top-8 lg:-left-8.75
@@ -32,7 +32,7 @@ const CalorieCounting = ({ img, title, description, video, addbar }) => {
             </div>
           )}
           <div className="relative rounded-2xl overflow-hidden">
-            <img src={img} alt={title} className="w-full h-auto" />
+            <img src={img} alt={title} className="w-full xl:h-162 h-auto" />
 
             {/* Play Button */}
             {video && (

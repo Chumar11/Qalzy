@@ -15,18 +15,18 @@ const MeetQalzy = () => {
             <img
               src="/image/1.553.png"
               alt="QALZY Scale Device"
-              className="w-64 sm:w-80 md:w-166 h-auto object-contain drop-shadow-2xl"
+              className="w-64 sm:w-80 md:w-166 xl:w-198 h-auto object-contain drop-shadow-2xl"
             />
           </div>
         </div>
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-[82.5px] font-bold text-[#090909] mb-4 font-family-inter ">
             MEET QALZY
           </h2>
-          <p className="text-xl sm:text-2xl md:text-3xl text-gray-600 mb-2">
+          <p className="text-xl sm:text-2xl md:text-3xl xl:text-[34.5px] text-[#909090] mb-2 font-family-inter">
             One-Tap Calorie Counting
           </p>
-          <p className="text-lg sm:text-xl md:text-2xl text-gray-500">
+          <p className="text-xl sm:text-2xl md:text-3xl xl:text-[34.5px] text-[#909090] font-family-inter ">
             Fast. Precise. Easy.
           </p>
         </div>
@@ -40,18 +40,18 @@ const MeetQalzy = () => {
                 className="w-84 sm:w-90 md:w-120 lg:w-156 xl:w-200  h-auto object-contain"
               />
 
-              <div className="absolute md:-bottom-1/12 lg:left-1/7 md:left-1/6  left-1/10 -bottom-1/5 sm:-bottom-1/8 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
+              <div className="absolute md:-bottom-1/12 lg:left-1/8 md:left-1/6  left-1/10 -bottom-1/5 sm:-bottom-1/8 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
                 <img
                   src="/image/Product (1).png"
                   alt="Tomato"
-                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-20 h-auto object-contain relative z-10 "
+                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-24 h-auto object-contain relative z-10 "
                 />
               </div>
               <div className="absolute top-0 lg:right-1/7 md:right-1/5  right-1/8 md:top-1/8 transform translate-x-8 md:translate-x-16">
                 <img
                   src="/image/Product.png"
                   alt="Avocado"
-                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-20 h-auto object-contain relative z-10"
+                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-24 h-auto object-contain relative z-10"
                 />
               </div>
 
