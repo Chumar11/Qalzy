@@ -1,1 +1,17 @@
 @import "tailwindcss";
+@theme {
+  /* Custom Breakpoints */
+  --breakpoint-xs: 475px;
+  --breakpoint-sm: 640px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1720px;
+  --breakpoint-3xl: 1920px;
+  --breakpoint-4xl: 2560px;
+
+  /* Custom Font Families */
+  --font-family-inter: "Inter", sans-serif;
+  --font-family-helvetica: "Helvetica", sans-serif;
+  --font-family-aeonik: "Aeonik TRIAL", sans-serif;
+}
