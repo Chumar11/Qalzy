@@ -139,8 +139,8 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-      <nav className=" px-4 lg:px-16 ">
-      <div className="flex items-center justify-between h-16 md:h-20 2xl:h-24 3xl:h-28">
+      <nav className=" px-4 xl:px-24 lg:px-8 3xl:px-40 ">
+        <div className="flex items-center justify-between h-16 md:h-20 2xl:h-24 3xl:h-28">
           {/* Logo */}
           <div className="shrink-0">
             <a
@@ -150,38 +150,34 @@ function Header() {
               <img
                 src="/image/logo/logo.png"
                 alt="Qalzy Logo"
-                className="h-7 xs:h-8 sm:h-9 md:h-10 lg:h-11 xl:h-12 2xl:h-14 3xl:h-16 w-auto"
+                className="h-7 xs:h-8 sm:h-9 md:h-10 lg:h-9 xl:h-12 2xl:h-14 3xl:h-16 w-auto"
               />
             </a>
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-4 lg:space-x-6 xl:gap-8 2xl:gap-12 3xl:gap-16">
+          <div className="hidden lg:flex items-center space-x-4 lg:space-x-8 xl:gap-14 2xl:gap-12 3xl:gap-16">
             <a
               href="#scale"
-              className="text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
-              style={{ fontFamily: "Helvetica" }}
+              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               AI Scale
             </a>
             <a
               href="#tracking"
-              className="text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
-              style={{ fontFamily: "Helvetica" }}
+              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               Calorie Tracking App
             </a>
             <a
               href="#blog"
-              className="text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
-              style={{ fontFamily: "Helvetica" }}
+              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               Blog
             </a>
             <a
               href="#shop"
-              className="text-[14px] lg:text-[15px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-gray-700 hover:text-gray-900 transition-colors duration-200"
-              style={{ fontFamily: "Helvetica" }}
+              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               Shop
             </a>
