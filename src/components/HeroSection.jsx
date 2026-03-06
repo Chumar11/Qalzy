@@ -21,7 +21,7 @@ const HeroSection = () => {
 
         {/* Content */}
         <div className=" md:w-203.75 3xl:w-280.75 lg:h-90.75 w-76.25 h-130.75 2xl:w-218.75 lg:w-150  mx-auto lg:mx-0 ">
-          <div className="flex flex-col gap-4  2xl:gap-8 xl:w-190.75  2xl:w-210.75  3xl:w-280.75 lg:w-143 md:w-125  w-71.25 h-68.75 relative lg:-top-10 top-10 mx-auto lg:mx-0 lg:left-1/10 xl:left-1/4 2xl:left-1/6 3xl:left-1/6">
+          <div className="flex flex-col gap-4  2xl:gap-8 xl:w-190.75  2xl:w-210.75  3xl:w-280.75 lg:w-143 md:w-125  w-71.25 h-68.75 relative lg:-top-10 top-10 mx-auto lg:mx-0 lg:left-1/10 xl:left-1/5 2xl:left-1/6 3xl:left-1/6">
             <h1 className="xl:text-[54px] 2xl:text-[70px] 3xl:text-[92px] lg:text-[38px] text-[34px] xl:w-185.75  2xl:w-210.75  3xl:w-280.75 lg:w-120 md:w-125  w-60.25 font-normal leading-[100%] tracking-[0%] text-white  lg:text-left text-center font-family-inter mx-auto lg:mx-0">
               The only kitchen scale that auto-tracks calories
             </h1>
