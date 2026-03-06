@@ -18,7 +18,7 @@ function App() {
         description="Tired of manually tracking your calories? Qalzy's AI camera instantly identifies raw foods, packaged items, and even multiple ingredients on a plate with over 90% accuracy, and automatically logs the detected calories and macros, all without any effort on your part."
         video={true}
         addbar={false}
-        width={"w-[85%]"}
+        width={"md:w-[85%] w-[90%]"}
       />
       <HowItWorks />
       <CalorieCounting
@@ -27,7 +27,7 @@ function App() {
         description="Say goodbye to tedious meal logging! Qalzy's AI camera automatically detects and logs your meals with over 90% accuracy, making it easier than ever to track your nutrition and stay on top of your health goals."
         video={false}
         addbar={true}
-       width={"w-[55%]"}
+        width={"md:w-[55%] w-[85%]"}
       />
       <CalorieCounting
         img="/image/Frame 48095857.png"
@@ -35,7 +35,7 @@ function App() {
         description="Say goodbye to tedious meal logging! Qalzy's AI camera automatically detects and logs your meals with over 90% accuracy, making it easier than ever to track your nutrition and stay on top of your health goals."
         video={false}
         addbar={false}
-       width={"w-[75%]"}
+        width={"md:w-[85%] w-[90%]"}
       />
       <Footer />
     </div>
