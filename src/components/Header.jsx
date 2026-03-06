@@ -139,7 +139,7 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-      <nav className=" px-4 xl:px-24 lg:px-8 3xl:px-40 ">
+      <nav className=" px-4 xl:px-16 lg:px-8 3xl:px-40 ">
         <div className="flex items-center justify-between h-16 md:h-20 2xl:h-24 3xl:h-28">
           {/* Logo */}
           <div className="shrink-0">
@@ -156,7 +156,7 @@ function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-4 lg:space-x-8 xl:gap-14 2xl:gap-12 3xl:gap-16">
+          <div className="hidden lg:flex items-center space-x-4 lg:space-x-8 xl:gap-8 2xl:gap-12 3xl:gap-16">
             <a
               href="#scale"
               className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[20px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
