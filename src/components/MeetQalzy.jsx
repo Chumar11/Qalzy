@@ -2,7 +2,6 @@ const MeetQalzy = () => {
   return (
     <section className="relative w-full bg-white  overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className=""></div>
         <img
           src="/image/Vector 1.png"
           alt="Background"

@@ -6,6 +6,7 @@ import CalorieCounting from "./components/CalorieCounting";
 import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 import Annocementbar from "./components/Annocementbar";
+import ScanAlert from "./components/ScanAlert";
 
 function App() {
   return (
@@ -39,6 +40,8 @@ function App() {
         addbar={false}
         width={"md:w-[85%] w-[90%]"}
       />
+      <Footer />
+      <ScanAlert />
       <Footer />
     </div>
   );
