@@ -20,13 +20,13 @@ const MeetQalzy = () => {
           </div>
         </div>
         <div className="text-center mb-8 md:mb-12">
-          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl  xl:text-[82.5px] font-bold text-[#090909] mb-4 font-family-inter ">
+          <h2 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl  xl:text-[82.5px] 3xl:text-[110px] font-bold text-[#090909] mb-4 font-family-inter ">
             MEET QALZY
           </h2>
-          <p className="text-xl sm:text-2xl md:text-3xl xl:text-[34.5px] text-[#909090] mb-2 font-family-inter">
+          <p className="text-[15px] sm:text-2xl md:text-3xl lg:text-[28px] xl:text-[34.5px] 3xl:text-[50px]  text-[#909090] mb-2 font-family-inter">
             One-Tap Calorie Counting
           </p>
-          <p className="text-xl sm:text-2xl md:text-3xl xl:text-[34.5px] text-[#909090] font-family-inter ">
+          <p className="text-[15px] sm:text-2xl md:text-3xl lg:text-[28px] xl:text-[34.5px] 3xl:text-[50px] text-[#909090] font-family-inter ">
             Fast. Precise. Easy.
           </p>
         </div>
