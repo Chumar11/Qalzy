@@ -32,7 +32,7 @@ const ScanAlert = () => {
 
           <div className="relative rounded-2xl overflow-hidden">
             <img
-              src="/image/pizza_gif_rectangle 1 (1).png"
+              src="public/image/5fc50abbfb16bf27186cb22057cefa1ff4ce01e4.gif"
               alt="pizza"
               className="w-full xl:h-162 h-auto  3xl:h-200"
             />
