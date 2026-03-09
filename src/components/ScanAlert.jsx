@@ -40,7 +40,7 @@ const ScanAlert = () => {
         </div>
       </div>
       <div className="relative mt-20 bg-white mb-20 ">
-        <div className="absolute inset-0 z-0 xl:left-120 3xl:left-195 md:left-60 ">
+        <div className="absolute inset-0 z-0 xl:left-12 3xl:left-195 md:left-60 ">
           <img
             src="/image/vectorright.png"
             alt="Background"
