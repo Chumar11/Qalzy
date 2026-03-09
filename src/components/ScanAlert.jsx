@@ -32,7 +32,7 @@ const ScanAlert = () => {
 
           <div className="relative rounded-2xl overflow-hidden">
             <img
-              src="public/image/5fc50abbfb16bf27186cb22057cefa1ff4ce01e4.gif"
+              src="/image/5fc50abbfb16bf27186cb22057cefa1ff4ce01e4.gif"
               alt="pizza"
               className="w-full xl:h-162 h-auto  3xl:h-200"
             />
@@ -40,7 +40,7 @@ const ScanAlert = () => {
         </div>
       </div>
       <div className="relative mt-20 bg-white mb-20 ">
-        <div className="absolute inset-0 z-0 xl:left-12 3xl:left-195 md:left-60 ">
+        <div className="absolute inset-0 z-0 xl:left-120 3xl:left-195 md:left-60 ">
           <img
             src="/image/vectorright.png"
             alt="Background"
