@@ -1,13 +1,7 @@
 const HeroSection = () => {
   return (
     <>
-      {/* Announcement Banner */}
-      <div className="mt-16 md:mt-20 2xl:mt-25 3xl:mt-28 bg-[#828282] py-3.75 lg:py-8 px-4 sm:px-6 md:px-8 lg:px-12 xl:px-45   ">
-        <p className=" text-[15px] lg:text-[14px] xl:text-[20px] 2xl:text-[25px] 3xl:text-[36px] leading-[100%] tracking-[0%] font-normal font-family-aeonik xl:ml-28 lg:ml-28 ">
-          Use AI to identify and record the food you weigh and log calories
-          automatically. World's First Launch!
-        </p>
-      </div>
+    
 
       <section className="relative lg:min-h-220 min-h-150  w-full flex items-center justify-start overflow-hidden">
         <div className="absolute inset-0">

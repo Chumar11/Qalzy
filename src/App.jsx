@@ -5,11 +5,13 @@ import MeetQalzy from "./components/MeetQalzy";
 import CalorieCounting from "./components/CalorieCounting";
 import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
+import Annocementbar from "./components/Annocementbar";
 
 function App() {
   return (
     <div className="w-full">
       <Header />
+      <Annocementbar />
       <HeroSection />
       <MeetQalzy />
       <CalorieCounting
