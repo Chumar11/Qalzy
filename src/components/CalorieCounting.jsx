@@ -11,7 +11,7 @@ const CalorieCounting = ({ img, title, description, video, addbar,width }) => {
           <h6 className="text-[24px] 2xl:text-[30px] 3xl:text-[36px] font-bold text-[#171923] mb-4 sm:mb-5 md:mb-6">
             {title}
           </h6>
-          <p className="text-[16px] 2xl:text-[21px] 3xl:text-[26px] text-gray-600 max-w-4xl mx-auto leading-relaxed px-4">
+          <p className="text-[16px] 2xl:text-[21px] 3xl:text-[26px] text-gray-600 xl:max-w-4xl sm:max-w-125  mx-auto leading-relaxed px-4">
             {description}
           </p>
         </div>

@@ -59,7 +59,7 @@ const MeetQalzy = () => {
                 <img
                   src="/image/fresh-ripe-tomato-close-up-top-view 1.png"
                   alt="Lemon"
-                  className="w-14 sm:w-18 md:w-23 lg:w-30 xl:w-37 3xl:w-91 h-auto object-contain"
+                  className="w-14 sm:w-18 xs:w-17 md:w-23 lg:w-30 xl:w-37 3xl:w-91 h-auto object-contain"
                 />
               </div>
             </div>
