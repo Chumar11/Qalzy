@@ -22,7 +22,7 @@ function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-4 lg:space-x-7 xl:gap-8 2xl:gap-12 3xl:gap-22">
+          <div className="hidden lg:flex items-center space-x-4 lg:space-x-7 xl:gap-9 2xl:gap-12 3xl:gap-22">
             <a
               href="#scale"
               className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[22px] 3xl:text-[30px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
