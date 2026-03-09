@@ -3,13 +3,13 @@ const HeroSection = () => {
     <>
     
 
-      <section className="relative lg:min-h-220 min-h-150  w-full flex items-center justify-start overflow-hidden">
+      <section className="relative lg:min-h-220 3xl:min-h-320 min-h-150  w-full flex items-center justify-start overflow-hidden">
         <div className="absolute inset-0">
           <img
             src="/image/Rectangle 1.png"
             alt="Kitchen background"
-            // className="w-full h-full  object-[70%] lg:object-center "
-            className="w-full h-full object-cover object-[68%] md:object-fill"
+
+            className="w-full h-full object-cover object-[68%] md:object-fill 2xl:object-cover 2xl:h-auto"
           />
         </div>
 
