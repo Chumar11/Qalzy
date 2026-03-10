@@ -7,6 +7,7 @@ const Annocementbar = () => {
       <p
         className="
         text-[15px] 
+         lg:text-[clamp(15px,calc((100vw-1024px)/65+15px),25px)]
       xxl:text-[clamp(20px,calc((100vw-1420px)/50+20px),28px)]
       2xl:text-[clamp(25px,calc((100vw-1720px)/50+25px),30px)]
       3xl:text-[clamp(24px,calc((100vw-1720px)/50+24px),39px)]
