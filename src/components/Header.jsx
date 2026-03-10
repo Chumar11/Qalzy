@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
-      <nav className=" px-4 xl:px-12 lg:px-8 3xl:px-24 ">
+      <nav className=" px-4 xl:px-12 lg:px-8 3xl:px-20 ">
         <div className="flex items-center justify-between h-16 md:h-20 2xl:h-24 3xl:h-28">
           {/* Logo */}
           <div className="shrink-0">
@@ -22,28 +22,36 @@ function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-4 lg:space-x-7 xl:gap-9 2xl:gap-12 3xl:gap-22">
+          <div
+            className="hidden lg:flex items-center space-x-4  lg:gap-[clamp(17px,calc((100vw-1024px)/8+17px),48px)] 
+  xl:gap-[clamp(28px,calc((100vw-1280px)/10+28px),82px)] 
+  xxl:gap-[clamp(34px,calc((100vw-1280px)/10+34px),98px)] 
+  2xl:gap-[clamp(48px,calc((100vw-1536px)/10+48px),88px)]
+  3xl:gap-[clamp(60px,calc((100vw-1920px)/11+60px),150px)]
+  "
+
+          >
             <a
               href="#scale"
-              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[22px] 3xl:text-[30px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
+              className="text-[14px] lg:text-[13px] xl:text-[16px] xxl:text-[clamp(16px,calc((100vw-1420px)/150+16px),17px)]   2xl:text-[20px] 3xl:text-[clamp(24px,calc((100vw-1920px)/150+24px),28px)]   font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               AI Scale
             </a>
             <a
               href="#tracking"
-              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[22px] 3xl:text-[30px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
+              className="text-[14px] lg:text-[13px] xl:text-[16px] xxl:text-[clamp(16px,calc((100vw-1420px)/150+16px),17px)]  2xl:text-[20px] 3xl:text-[clamp(24px,calc((100vw-1920px)/150+24px),28px)]    font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               Calorie Tracking App
             </a>
             <a
               href="#blog"
-              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[22px] 3xl:text-[30px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
+              className="text-[14px] lg:text-[13px] xl:text-[16px] xxl:text-[clamp(16px,calc((100vw-1420px)/150+16px),17px)] 2xl:text-[20px] 3xl:text-[clamp(24px,calc((100vw-1920px)/150+24px),28px)]  font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               Blog
             </a>
             <a
               href="#shop"
-              className="text-[14px] lg:text-[13px] xl:text-[16px] 2xl:text-[22px] 3xl:text-[30px] font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
+              className="text-[14px] lg:text-[13px] xl:text-[16px] xxl:text-[clamp(16px,calc((100vw-1420px)/150+16px),17px)] 2xl:text-[20px] 3xl:text-[clamp(24px,calc((100vw-1920px)/150+24px),28px)]   font-normal leading-[100%] tracking-[0.04em] text-center text-[#0E1318] hover:text-gray-900 transition-colors duration-200"
             >
               Shop
             </a>

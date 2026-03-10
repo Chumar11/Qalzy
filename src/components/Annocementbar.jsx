@@ -6,7 +6,10 @@ const Annocementbar = () => {
       {/*  text-[15px] lg:text-[14.5px] xl:text-[20px] 2xl:text-[28px] 3xl:text-[39px]  */}
       <p
         className="
-      text-[clamp(14.75px,1.45vw,39px)]
+        text-[15px] 
+      xxl:text-[clamp(20px,calc((100vw-1420px)/50+20px),28px)]
+      2xl:text-[clamp(25px,calc((100vw-1720px)/50+25px),30px)]
+      3xl:text-[clamp(24px,calc((100vw-1720px)/50+24px),39px)]
         leading-[100%] tracking-[0%] font-normal font-family-aeonik xl:ml-28 lg:ml-26 "
       >
         Use AI to identify and record the food you weigh and log calories
