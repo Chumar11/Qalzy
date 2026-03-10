@@ -1,9 +1,6 @@
-import React from "react";
-
 const Annocementbar = () => {
   return (
-    <div className="mt-16 md:mt-20 2xl:mt-25 3xl:mt-28 bg-[#828282] py-3.75 xl:py-8 2xl:py-10 lg:py-6 px-4 sm:px-6 md:px-8 lg:px-0   ">
-      {/*  text-[15px] lg:text-[14.5px] xl:text-[20px] 2xl:text-[28px] 3xl:text-[39px]  */}
+    <div className="mt-16 md:mt-20 2xl:mt-25 3xl:mt-28 bg-[#828282] py-3.75 xl:py-8 2xl:py-10 lg:py-6 px-4 sm:px-6 md:px-8 lg:px-0 ">
       <p
         className="
         text-[15px] 
