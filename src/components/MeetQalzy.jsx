@@ -12,7 +12,7 @@ const MeetQalzy = () => {
       <div className="relative z-20  mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex justify-center mb-12 md:mb-16">
           <div className="relative">
-            <img
+            <img 
               src="/image/1.553.png"
               alt="QALZY Scale Device"
               className="w-64 sm:w-80 md:w-140   lg:w-[clamp(512px,calc((100vw-1024px)/2+512px),1290px)] h-auto object-contain drop-shadow-2xl"
@@ -37,29 +37,29 @@ const MeetQalzy = () => {
               <img
                 src="/image/fresh-shrimp-salad-with-tomatoes-lettuce-arugula-2025-01-29-08-48-11-utc 2.png"
                 alt="Salad Bowl"
-                className="w-84 sm:w-90 md:w-120 lg:w-156 xl:w-200 3xl:w-500  h-auto object-contain"
+                className="w-84 sm:w-90 md:w-120  lg:w-[clamp(624px,calc((100vw-1024px)/2+624px),2000px)]   h-auto object-contain"
               />
 
-              <div className="absolute md:-bottom-1/12 lg:left-1/8 md:left-1/6  3xl:left-1/12 left-1/10 -bottom-1/5 sm:-bottom-1/8 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
+              <div className="absolute md:-bottom-1/12 lg:left-1/8 md:left-1/6  3xl:left-1/18 left-1/10 -bottom-1/5 sm:-bottom-1/8 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
                 <img
                   src="/image/Product (1).png"
                   alt="Tomato"
-                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-24 3xl:w-58 h-auto object-contain relative z-10 "
+                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-24 2xl:w-34 3xl:w-44  h-auto object-contain relative z-10 "
                 />
               </div>
               <div className="absolute top-0 lg:right-1/7 md:right-1/5  right-1/8 3xl:right-1/12 md:top-1/8 transform translate-x-8 md:translate-x-16">
                 <img
                   src="/image/Product.png"
                   alt="Avocado"
-                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-24 3xl:w-58 h-auto object-contain relative z-10"
+                  className="w-12 sm:w-14 md:w-14 lg:w-18 xl:w-24 2xl:w-34 3xl:w-44 h-auto object-contain relative z-10"
                 />
               </div>
 
-              <div className="absolute md:bottom-1/6 md:left-1/20 sm:bottom-1/5 sm:left-1/20  lg:bottom-1/8 lg:left-1/20 bottom-1/4 left-1/22 xl:left-1/17 xl:bottom-1/10 3xl:bottom-1/24 3xl:left-1/16 transform translate-x-1/2 translate-y-8">
+              <div className="absolute md:bottom-1/6 md:left-1/20 sm:bottom-1/5 sm:left-1/20  lg:bottom-[clamp(30px,calc((100vw-1024px)/300+30px),120px)]  transform translate-x-1/2 translate-y-8">
                 <img
                   src="/image/fresh-ripe-tomato-close-up-top-view 1.png"
                   alt="Lemon"
-                  className="w-14 sm:w-18 xs:w-17 md:w-23 lg:w-30 xl:w-37 3xl:w-91 h-auto object-contain"
+                  className="w-14 sm:w-18 xs:w-17 md:w-23  lg:w-[clamp(120px,calc((100vw-1024px)/10+120px),364px)] h-auto object-contain"
                 />
               </div>
             </div>
