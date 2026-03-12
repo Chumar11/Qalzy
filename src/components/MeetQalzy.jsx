@@ -15,7 +15,7 @@ const MeetQalzy = () => {
             <img
               src="/image/1.553.png"
               alt="QALZY Scale Device"
-              className="w-64 sm:w-80 md:w-140 xl:w-178 3xl:w-7xl lg:w-lg h-auto object-contain drop-shadow-2xl"
+              className="w-64 sm:w-80 md:w-140   lg:w-[clamp(512px,calc((100vw-1024px)/2+512px),1290px)] h-auto object-contain drop-shadow-2xl"
             />
           </div>
         </div>
