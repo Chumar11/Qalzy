@@ -1,5 +1,3 @@
-import React from "react";
-
 const ScanAlert = () => {
   return (
     <section className="relative w-full ">

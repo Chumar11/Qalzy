@@ -16,7 +16,7 @@ const CalorieCounting = ({ img, title, description, video, addbar,width }) => {
           </p>
         </div>
 
-        {/* Image/Video Section */}
+        {/* Image Section */}
         <div className={`${width} mx-auto relative `}>
           {addbar && (
             <div

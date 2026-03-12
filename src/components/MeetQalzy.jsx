@@ -1,6 +1,7 @@
 const MeetQalzy = () => {
   return (
-    <section className="relative w-full bg-white  overflow-hidden">
+    <section className="relative w-full bg-white  overflow-hidden lg:mt-[clamp(-350px,calc((100vw-1024px)/2-350px),-40px)] xl:mt-[clamp(-235px,calc((100vw-1280px)/2-235px),-40px)] 2xl:mt-0 3xl:mt-[clamp(-330px,calc((100vw-1920px)/2-330px),-40px)]
+      ">
       <div className="absolute inset-0 z-0">
         <img
           src="/image/Vector 1.png"

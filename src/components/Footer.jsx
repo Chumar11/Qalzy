@@ -22,20 +22,15 @@ const Footer = () => {
 
       {/* Content */}
       <div className="relative z-10 px-4 sm:px-6 md:px-8 text-left xl:left-1/5  lg:left-1/8">
-        {/* Heading */}
         <h2
           className="text-[48px] 3xl:text-[90px]  sm:text-[40px] md:text-[48px] lg:text-[52px] xl:text-[56px] 2xl:text-[70px] 
     font-normal leading-[100%] tracking-[0%] text-white lg:text-left text-center  mb-3 sm:mb-4 font-family-inter"
         >
           Join the waiting list
         </h2>
-
-        {/* Subheading */}
         <p className=" font-family-inter text-[24px] 2xl:text-[28px] 3xl:text-[34px] font-bold leading-[100%] tracking-[0%] text-white text-center lg:text-left mb-2">
           Enter to win a Nutriscale and get 25% off
         </p>
-
-        {/* Description */}
         <p className="text-[16px] 3xl:text-[24px] font-normal leading-[100%] tracking-[0.04em] text-white/80 lg:text-left text-center   font-family-helvetica">
           Enter for a chance to win a Nutriscale and get 25% off your first
           order
@@ -44,7 +39,6 @@ const Footer = () => {
         {/* Email Form */}
         <form onSubmit={handleSubmit} className="mt-4">
           <div className="flex flex-col gap-3 items-center lg:items-start ">
-            {/* Email Input */}
             <input
               type="email"
               value={email}
