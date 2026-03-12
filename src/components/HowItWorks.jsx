@@ -28,17 +28,17 @@ const HowItWorks = () => {
             />
           </div>
 
-          <div className="absolute xl:top-1/3 xl:right-1/30 top-1/3 right-1/30 sm:top-1/3 sm:right-1/75 3xl:right-1/75 lg:top-1/3 lg:right-1/75  md:right-1/35  transform translate-x-8 md:translate-x-16">
+          <div className="absolute xl:top-1/3 xl:right-[clamp(10px,calc((100vw-1024px)/380-10px),-520px)] 3xl:right-[clamp(10px,calc((100vw-1024px)/10-10px),-1520px)] top-1/3 right-1/30 sm:top-1/3 sm:right-1/75  lg:top-1/3 lg:right-1/75  md:right-1/35  transform translate-x-8 md:translate-x-16">
             <div className="relative">
               <img
                 src="/image/p2.png"
                 alt="apple"
-                className="w-25 object-contain relative z-10 sm:w-35 md:w-48 lg:w-50 xl:w-70 3xl:w-120 "
+                className="w-25 object-contain relative z-10 sm:w-35 md:w-48 lg:w-50 xl:w-70 2xl:w-100 3xl:w-120 "
               />
               <img
                 src="/image/image 57.png"
                 alt="apple"
-                className="w-13 object-contain absolute z-10 sm:w-15 md:w-28 lg:w-30 xl:w-40 3xl:w-70 top-1/4 -right-1/5 3xl:-right-1/4 transform -translate-x-1/2 -translate-y-1/2"
+                className="w-13 object-contain absolute z-10 sm:w-15 md:w-28 lg:w-30 xl:w-40 2xl:w-55 3xl:w-70 top-1/4 -right-1/5 3xl:-right-1/4 transform -translate-x-1/2 -translate-y-1/2"
               />
             </div>
           </div>
