@@ -1,6 +1,6 @@
 const HowItWorks = () => {
   return (
-    <section className="relative w-full bg-white  py-12  3xl:py-26 overflow-hidden">
+    <section className="relative w-full bg-white  py-12 2xl:py-20  xxl:py-16 3xl:py-26 overflow-hidden">
       <div className="absolute inset-0 z-0 py-4">
         <div className=""></div>
         <img
@@ -16,15 +16,15 @@ const HowItWorks = () => {
               <img
                 src="/image/firy.png"
                 alt=""
-                className="w-full h-full  3xl:w-550 object-contain rounded-[30px]"
+                className="w-full h-full  xxl:w-[clamp(1250px,calc((100vw-1420px)/1+1250px),2520px)]  object-contain rounded-[30px]"
               />
-            </div>
+            </div> 
           </div>
-          <div className="absolute md:top-1/6 md:left-1/25 lg:left-1/800 lg:top-1/6 top-1/6 left-1/50 sm:top-1/6 sm:left-1/200 xl:top1/6 xl:left-1/28 3xl:left-1/29 transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
+          <div className="absolute md:top-1/6 md:left-1/25 xxl:left-[clamp(35px,calc((100vw-1420px)/2-35px),-820px)] 3xl:left-[clamp(35px,calc((100vw-1420px)/0-35px),-820px)] lg:left-[clamp(10px,calc((100vw-1024px)/80+10px),520px)] lg:top-[clamp(55px,calc((100vw-1024px)/30+55px),520px)]  top-1/6 left-1/50 sm:top-1/6 sm:left-1/200  transform -translate-y-1/2 -translate-x-8 md:-translate-x-16">
             <img
               src="/image/Untitled design 1.png"
               alt="Tomato"
-              className="w-25 object-contain relative z-10 sm:w-40 md:w-48 lg:w-60 xl:w-80 3xl:w-140"
+              className="w-25 object-contain relative z-10 sm:w-40 md:w-48 lg:w-[clamp(240px,calc((100vw-1024px)/5+240px),1140px)]  "
             />
           </div>
 
