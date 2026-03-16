@@ -7,6 +7,7 @@ import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 import Annocementbar from "./components/Annocementbar";
 import ScanAlert from "./components/ScanAlert";
+import { Track } from "./components/Track";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
       <Footer />
       <ScanAlert />
       <Footer />
+      <Track />
     </div>
   );
 }
