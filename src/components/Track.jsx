@@ -44,13 +44,31 @@ export const Track = () => {
             <img
               src="/image/Frame 2147223151.png"
               alt="take photo"
-              className="lg:rounded-[30px] rounded-[12px] md shadow-[4px_4px_52px_0px_rgba(0,0,0,0.2)] lg:w-[clamp(220px,calc((100vw-1024px)/4+220px),580px)] w-[clamp(90px,calc((100vw-320px)/3+80px),580px)] lg:h-[clamp(140px,calc((100vw-1024px)/8+140px),500px)] lg:-mt-3 -mt-1"
+              className="lg:rounded-[30px] rounded-xl md shadow-[4px_4px_52px_0px_rgba(0,0,0,0.2)] lg:w-[clamp(220px,calc((100vw-1024px)/4+220px),580px)] w-[clamp(90px,calc((100vw-320px)/3+80px),580px)] lg:h-[clamp(140px,calc((100vw-1024px)/8+140px),500px)] lg:-mt-3 -mt-1"
             />
             <img
               src="/image/Frame 2147223152.png"
               alt="voice"
               className="lg:w-[clamp(220px,calc((100vw-1024px)/4+220px),580px)] w-[clamp(90px,calc((100vw-320px)/3+80px),580px)]"
             />
+          </div>
+
+          <div className="lg:mt-16 mt-4 md:mt-8 3xl:mt-24">
+            <h4 className="font-family-inter xxl:text-[27px] text-[15px] md:text-[20px] lg:text-[24px] 3xl:text-[40px] text-[#6D6D6D] ">
+              Get Qalzy app for free!
+            </h4>
+            <div className="flex justify-center gap-4 xxl:mt-8 mt-4 3xl:mt-12">
+              <img
+                src="/image/b6d1f7f6b3e6774059fec7e66769457b652279c7.png"
+                alt="play store"
+                className="xl:w-60 2xl:w-80 w-30 md:w-50 3xl:w-100 xl:rounded-xl rounded-lg"
+              />
+              <img
+                src="/image/3a26498b337d802b84433abfbff879eff517ad96.png"
+                alt="apple store"
+                 className="xl:w-60 2xl:w-80 w-30 md:w-50 3xl:w-100 xl:rounded-xl rounded-lg"
+              />
+            </div>
           </div>
         </div>
       </div>

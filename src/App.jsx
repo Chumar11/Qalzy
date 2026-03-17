@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Annocementbar from "./components/Annocementbar";
 import ScanAlert from "./components/ScanAlert";
 import { Track } from "./components/Track";
+import Energysummary from "./components/Energysummary";
 
 function App() {
   return (
@@ -45,6 +46,8 @@ function App() {
       <ScanAlert />
       <Footer />
       <Track />
+      <Energysummary />
+      <Footer />
     </div>
   );
 }
