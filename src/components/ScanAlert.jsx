@@ -22,7 +22,7 @@ const ScanAlert = () => {
           />
         </div>
         <div className=" md:w-[40%] w-[70%]  mx-auto relative ">
-          <div className="absolute  bg-white rounded-lg sm:rounded-[10px] shadow-lg z-10 py-2.5 px-5 xl:h-20 xl:w-90 lg:h-10 lg:w-50 w-full xl:-bottom-10 flex justify-center items-center -bottom-4 xl:left-[22%] md:left-[35%] lg:left-[28%]">
+          <div className="absolute  bg-white rounded-lg sm:rounded-[10px] shadow-lg z-10 py-2.5 px-5 xl:h-20 md:w-auto w-full lg:h-13 xl:-bottom-10  -bottom-4 left-1/2 transform -translate-x-1/2 ">
             <span className="text-[16px] lg:text-[20px] xl:text-[40px] 3xl:text-[38px] font-medium text-gray-700 whitespace-nowrap">
               Scan portions
             </span>
@@ -46,7 +46,7 @@ const ScanAlert = () => {
           />
         </div>
         <div className=" md:w-[40%] w-[70%]  mx-auto relative ">
-          <div className="absolute  bg-white rounded-lg sm:rounded-[10px] shadow-lg z-10 py-2.5 px-5 xl:h-20 md:w-auto w-full lg:h-13 xl:-bottom-10  -bottom-4 xl:left-[10%]  md:left-[15%] lg:left-[18%] 3xl:left-[25%] ">
+          <div className="absolute  bg-white rounded-lg sm:rounded-[10px] shadow-lg z-10 py-2.5 px-5 xl:h-20 md:w-auto w-full lg:h-13 xl:-bottom-10  -bottom-4 left-1/2 transform -translate-x-1/2 ">
             <span className="text-[16px] lg:text-[20px] xl:text-[40px] 3xl:text-[38px] font-medium text-gray-700 whitespace-nowrap">
               Track multiple ingredients
             </span>
